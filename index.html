@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Willian | Técnico de Informática</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Partículas de fundo -->
+    <div class="bg-particles">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <!-- Header / Navegação -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo-container">
+                <svg class="logo" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#a8e6a3"/>
+                            <stop offset="100%" stop-color="#7bc47f"/>
+                        </linearGradient>
+                    </defs>
+                    <polygon points="50,5 90,27 90,73 50,95 10,73 10,27" fill="none" stroke="url(#logoGrad)" stroke-width="3"/>
+                    <polygon points="50,15 80,32 80,68 50,85 20,68 20,32" fill="none" stroke="#e63946" stroke-width="2" opacity="0.8"/>
+                    <text x="50" y="58" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="28" font-weight="700" fill="#a8e6a3">DW</text>
+                </svg>
+                <div class="logo-text">
+                    <span class="logo-name">David Willian</span>
+                    <span class="logo-role">Técnico de Informática</span>
+                </div>
+            </a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Início</a></li>
+                <li><a href="#historia" class="nav-link">Carreira</a></li>
+                <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção Principal / Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">● Disponível para projetos</span>
+                <h1 class="hero-title">
+                    Olá, eu sou <br>
+                    <span class="highlight">David Willian</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Técnico de Informática especializado em manutenção de computadores, 
+                    redes e suporte técnico. Transformando problemas em soluções.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contato" class="btn btn-primary">Fale Comigo</a>
+                    <a href="#servicos" class="btn btn-outline">Ver Serviços</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-num">+5</span>
+                        <span class="stat-label">Anos Exp.</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">+300</span>
+                        <span class="stat-label">Clientes</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-num">100%</span>
+                        <span class="stat-label">Satisfação</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cartão de Visita Digital -->
+            <div class="business-card-wrapper">
+                <div class="business-card" id="businessCard">
+                    <div class="card-glow"></div>
+                    <div class="card-header">
+                        <svg class="card-logo" viewBox="0 0 100 100">
+                            <polygon points="50,10 85,30 85,70 50,90 15,70 15,30" fill="none" stroke="#a8e6a3" stroke-width="3"/>
+                            <text x="50" y="58" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="26" font-weight="700" fill="#a8e6a3">DW</text>
+                        </svg>
+                        <span class="card-status">online</span>
+                    </div>
+                    <h3 class="card-name">David Willian</h3>
+                    <p class="card-role">Técnico de Informática</p>
+                    <div class="card-divider"></div>
+                    <ul class="card-info">
+                        <li>
+                            <span class="icon">📧</span>
+                            <span>david.willian@tech.com</span>
+                        </li>
+                        <li>
+                            <span class="icon">📱</span>
+                            <span>(11) 99999-9999</span>
+                        </li>
+                        <li>
+                            <span class="icon">📍</span>
+                            <span>São Paulo - SP</span>
+                        </li>
+                    </ul>
+                    <div class="card-footer">
+                        <span>Manutenção • Redes • Suporte</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção História / Carreira -->
+    <section id="historia" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Minha Trajetória</span>
+                <h2 class="section-title">História da <span class="highlight">Carreira</span></h2>
+                <p class="section-desc">Uma jornada dedicada à tecnologia e ao suporte técnico de excelência.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2018</span>
+                        <h3>Primeiros Passos</h3>
+                        <p>Início dos estudos em montagem e manutenção de computadores. Primeiros clientes atendidos como freelancer na comunidade local.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2020</span>
+                        <h3>Formação Técnica</h3>
+                        <p>Conclusão do curso Técnico em Informática. Certificação em redes de computadores e segurança da informação.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2021</span>
+                        <h3>Experiência Profissional</h3>
+                        <p>Atuação em empresa de TI prestando suporte técnico para pequenas e médias empresas. Gestão de infraestrutura de redes.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2023</span>
+                        <h3>Especialização</h3>
+                        <p>Especialização em segurança de redes, servidores Linux/Windows e computação em nuvem. Atendimento remoto e presencial.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">Hoje</span>
+                        <h3>Empreendedorismo</h3>
+                        <p>Atendimento autônomo com foco em qualidade, agilidade e preço justo. Mais de 300 clientes satisfeitos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Serviços -->
+    <section id="servicos" class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// O que eu faço</span>
+                <h2 class="section-title">Meus <span class="highlight-red">Serviços</span></h2>
+                <p class="section-desc">Soluções completas em tecnologia para você e sua empresa.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🖥️</div>
+                    <h3>Manutenção de PCs</h3>
+                    <p>Formatação, limpeza, upgrade de hardware, instalação de sistemas e remoção de vírus.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3>Redes e Wi-Fi</h3>
+                    <p>Configuração de roteadores, cabeamento estruturado, redes corporativas e segurança.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🛠️</div>
+                    <h3>Suporte Técnico</h3>
+                    <p>Atendimento remoto e presencial, resolução de problemas de software e hardware.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔒</div>
+                    <h3>Segurança Digital</h3>
+                    <p>Proteção de dados, backup, antivírus, firewall e boas práticas de segurança.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💾</div>
+                    <h3>Backup e Recuperação</h3>
+                    <p>Recuperação de dados, configuração de backup automático em nuvem ou local.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">⚙️</div>
+                    <h3>Consultoria em TI</h3>
+                    <p>Orientação para compra de equipamentos e otimização da infraestrutura tecnológica.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Vamos conversar</span>
+                <h2 class="section-title">Entre em <span class="highlight">Contato</span></h2>
+                <p class="section-desc">Precisa de ajuda com seu computador ou rede? Me chame!</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Informações de Contato</h3>
+                    <ul class="contact-list">
+                        <li>
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <span>Email</span>
+                                <strong>david.willian@tech.com</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <span>Telefone / WhatsApp</span>
+                                <strong>(11) 99999-9999</strong>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <span>Localização</span>
+                                <strong>São Paulo - SP</strong>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="nome" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Seu email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="assunto" placeholder="Assunto" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Enviar Mensagem</button>
+                    <p class="form-status" id="formStatus"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <svg class="footer-logo" viewBox="0 0 100 100">
+                        <polygon points="50,10 85,30 85,70 50,90 15,70 15,30" fill="none" stroke="#a8e6a3" stroke-width="3"/>
+                        <text x="50" y="58" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="26" font-weight="700" fill="#a8e6a3">DW</text>
+                    </svg>
+                    <div>
+                        <h4>David Willian</h4>
+                        <p>Técnico de Informática</p>
+                    </div>
+                </div>
+                <p class="footer-copy">© 2025 David Willian. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
